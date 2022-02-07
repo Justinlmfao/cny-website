@@ -1,0 +1,17 @@
+img {
+	height:	200px;
+	background-color: silver;
+	padding: 20px;
+	border: 10px solid blue;
+	border-radius: 40%;
+	margin: 20px;
+}
+
+body {
+	background-color: gold;
+}
+div {
+	display: flex;
+	flex-direction: column-row;
+	flex-wrap: wrap;
+}

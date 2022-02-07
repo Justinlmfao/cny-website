@@ -1,0 +1,29 @@
+#static {
+	border:  5px solid violet;
+}
+
+#relative {
+	border:  5px solid violet;
+	position: relative;
+	top: 20px;
+	left: 20px;
+}
+
+#relative-2 { 
+	border:  5px solid violet;
+	position: relative;
+	top: 200px;
+	left: 20px;
+}
+
+#absolute {
+	border:  5px solid violet;
+	position: relative;
+	top: 50px;
+	left: 20px;
+}
+
+#fixed {
+	border:  5px solid violet;
+}
+

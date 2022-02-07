@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@200&family=Syne+Tactile&display=swap');
+
+body {
+	font-family: 'Source Serif 4', sans-serif;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	font-size: 19px;
+	color: black;
+}
+
+
+
+#ban {
+	width: 100%;
+}
+#lo {
+	width: 14%;
+}
+
+#i1 {
+	width: 5%;
+}
+
+#i2 {
+	width: 6%;
+}
+
+h1 {
+	font-size: 260%;
+}
+
+li {
+	list-style-type: none;
+	padding: 8px;
+}
+
+.pho {
+	border-radius: 40%;
+	height: 330px;
+	width: 330px;
+	object-fit: cover;
+}
+
+#legends {
+	display: flex;
+	flex-direction: column-row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+#cny {
+	display: flex;
+	flex-direction: column-row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+#link {
+	border: 10px solid blue;
+	display: inline-block;
+	border-radius: 15%;
+	background-color: blue;
+	color: white;
+	transform:  translate(60%, 600%);
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+#topban {
+	display: flex;
+}
+
+
+#ban {
+	position: relative;
+	margin-bottom: 20px;
+}
+
+#lo, #topban > div, h1, #topban > a {
+	position: absolute;
+}
+
+#lo {
+	transform: translate(30%,0);
+}
+
+
+#topban > div {
+	transform: translate(136%, 0);
+}
+
+h1 {
+	transform:  translate(20%, 500%);
+	color: white;
+}
+
+h2 {
+	margin: 20px;
+	font-weight: bold;
+	color: red;
+}
+
+
+
+
+
